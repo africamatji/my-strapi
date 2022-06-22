@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "difficulty_levels",
+  "info": {
+    "singularName": "difficulty-level",
+    "pluralName": "difficulty-levels",
+    "displayName": "DifficultyLevel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

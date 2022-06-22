@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qualifying_questions",
+  "info": {
+    "singularName": "qualifying-question",
+    "pluralName": "qualifying-questions",
+    "displayName": "QualifyingQuestions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "question_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

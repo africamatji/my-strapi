@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deserts_api_id",
+  "info": {
+    "singularName": "desert-api-id",
+    "pluralName": "deserts-api-id",
+    "displayName": "deserts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "json"
+    },
+    "recipe": {
+      "type": "json"
+    },
+    "comments": {
+      "type": "json"
+    }
+  }
+}
