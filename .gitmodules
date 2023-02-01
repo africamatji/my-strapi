@@ -1,0 +1,3 @@
+[submodule "next-app"]
+	path = next-app
+	url = git@github.com:africamatji/next-app.git
